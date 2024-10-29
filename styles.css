@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+    color: #f4763b; /* Color Pokémon */
+}
+
+.search-container {
+    margin: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f4763b; /* Color Pokémon */
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f34e3b; /* Color Pokémon más oscuro */
+}
+
+.results {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pokemon {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    width: 150px;
+}
+
+.pokemon img {
+    width: 100px;
+    height: 100px;
+}
